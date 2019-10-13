@@ -8,8 +8,6 @@ public class qn7
 		int prime=0,c=0;
 		for(int i=3;c<10000;i=i+2)
 		{
-			if(i%2==1)
-			{
 			int flag=0;
 			for(int j=2;j<=Math.sqrt(i);j++)
 			{
@@ -24,7 +22,7 @@ public class qn7
 				prime=i;
 				c++;
 			}
-			}
+			
 		}
 		System.out.println("Result="+prime);
 	}
